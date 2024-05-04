@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: linear-gradient(90deg, rgb(160, 222, 219), rgb(3, 165, 209));
+}
+
+.container {
+    height: 30px;
+    width: 100%;
+}
+
+.container>nav {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.container>nav>h1 {
+    font-size: 40px;
+}
+
+.container>nav>ul>li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.container>nav>ul>li>a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.container>nav>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+.container>nav>button {
+    padding: 5px 5px;
+    border: none;
+    border-radius: 25px;
+    background-color: #fff;
+    color: #000;
+    font-size: 18px;
+    transition: 1s;
+}
+
+.container>nav>button:hover {
+    transition: 1s;
+    padding: 7px 7px;
+    background-color: #000;
+    color: #fff;
+}
+
+/*
+    Hello,
+
+    As I'm relatively new to projects like this,
+    I may make mistakes along the way,
+    but I'm always open to learning and improving.
+    I'm excited to gain experience through this project
+    and look forward to pushing myself further with
+    your constructive feedback.
+
+    Thank you,
+
+    Abishim :)
+*/
